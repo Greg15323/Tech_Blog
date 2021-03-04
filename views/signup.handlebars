@@ -1,6 +1,11 @@
-<form>
+
+ <form>
    <div class="row justify-content-center">
      <div class="col-md-4">
+       <div class="mb-3">
+         <label for="exampleInputEmail1" class="form-label">Username</label>
+         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+       </div>
        <div class="mb-3">
          <label for="exampleInputEmail1" class="form-label">Email address</label>
          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -10,19 +15,18 @@
          <label for="exampleInputPassword1" class="form-label">Password</label>
          <input type="password" class="form-control" id="exampleInputPassword1">
        </div>
-        <div class="row">
-     <div class="col-md-6">
-       <button type="submit" class="btn btn-primary" style="width: 100%">Login</button>
-     </div>
-     <div class="col-md-6">
-       <a class="btn btn-secondary" href="/signup" style="width: 100%">Sign Up</a>
-         <div id="emailHelp" class="form-text">Click here to create an account.</div>
+       <div class="mb-3">
+         <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+         <input type="password" class="form-control" id="exampleInputPassword1">
+       </div>
+   <div class="row">
+     <div class="col-md-12">
+       <button type="submit" class="btn btn-primary" style="width: 100%">Create Account</button>
      </div>
      </div>
      </div>
    </div>
-   </form>
+ </form>
 
-     
 
  <script src="./js/login.js"></script>

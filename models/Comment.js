@@ -16,7 +16,7 @@ const { Model, DataTypes } = require('sequelize');
        allowNull: false,
      },
      user_id: {
-       type: DataTypes.STRING,
+       type: DataTypes.INTEGER,
      
        allowNull: false,
        references: {

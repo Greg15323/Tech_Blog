@@ -29,7 +29,7 @@ const { Model, DataTypes } = require('sequelize');
    },
    {
      sequelize,
-     // timestamps: false,
+     timestamps: true,
      freezeTableName: true,
      underscored: true,
      modelName: 'post',

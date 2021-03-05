@@ -20,7 +20,7 @@ const signupFormHandler = async (event) => {
       });
  
       if (response.ok) {
-         document.location.replace('/profile');
+        document.location.replace('/profile');
       } else {
         alert(response.statusText);
       }
@@ -28,4 +28,6 @@ const signupFormHandler = async (event) => {
   };
  
  
-  $('#create-account-btn').on('click', signupFormHandler);
+  document
+    .getElementById('create-account-btn')
+    .addEventListener('click', signupFormHandler);
